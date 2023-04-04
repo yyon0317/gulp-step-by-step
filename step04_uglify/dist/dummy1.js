@@ -1,0 +1,1 @@
+function hello3(){console.log("hello world! - 1")}
