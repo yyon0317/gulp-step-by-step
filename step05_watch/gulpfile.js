@@ -1,4 +1,5 @@
 //gulp는 이런 경우를 위해, 파일에 변경이 있을 때마다 변경을 감지해서 task 를 실행할 수 있는 기능을 gulp.watch 라는 메서드로 제공해주고 있습니다.
+//npm install gulp-uglify 설치
 
 const gulp = require('gulp');
 const uglify = require('gulp-uglify');
