@@ -23,6 +23,7 @@ gulp.task('default', gulp.series('minifycss', 'watch'));
 //npm install gulp-uglify
 //npm install gulp-clean-css --save-dev
 //npm install gulp-concat --save-dev
+//npm install gulp-minify-css --save-dev
 
 
 //앞서 gulp-uglify 플러그인을 사용해서 JavaScript 파일을 Minify 한 것처럼 CSS 파일도 운영환경을 위해 이렇게 Minify 를 수행해서 배포하게 됩니다. 이런 기능을 제공해주는 대표적인 플러그인은 gulp-clean-css 입니다. gulp-clean-css 플러그인은 단순하게 CSS 파일의 minify뿐 아니라 CSS 파일 내의 @import 도 인식해서 최적화된 형태로 병합해줍니다. gulp-sourcemaps 플러그인과도 함께 사용할 수 있기 때문에 상당히 유용하게 사용할 수 있는 플러그인입니다.
