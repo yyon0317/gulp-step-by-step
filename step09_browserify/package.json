@@ -1,0 +1,20 @@
+{
+  "name": "step09_browserify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-uglify": "^3.0.2",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "gulp-uglify-es": "^3.0.0",
+    "vinyl-buffer": "^1.0.1"
+  }
+}
