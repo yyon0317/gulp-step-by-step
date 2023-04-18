@@ -11,6 +11,14 @@
 -  npm install gulp-minify-css --save-dev
 -  npm install browser-sync --save-dev
 -  npm install gulp-uglify-es --save-dev
+-  npm install gulp-minify-html
+-  npm install browserify --save-dev
+-  npm install --save-dev vinyl-source-stream
+-  npm install --save-dev vinyl-buffer
+-  npm install --save-dev gulp-sourcemaps
+-  npm install gulp-htmlmin --save-dev
+-  npm install gulp-clean-css --save-dev
+
 
 [step02_default_task]
 
