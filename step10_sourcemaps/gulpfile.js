@@ -10,15 +10,6 @@ const buffer = require('vinyl-buffer');
 const sourcemaps = require('gulp-sourcemaps');
 const chokidar = require('chokidar');
 
-//dist 폴더를 기준으로 웹서버 실행
-function server() {
-  return browserSync.init({
-    server: {
-      baseDir: './dist'
-    }
-  });
-}
-
 //HTML 파일을 minify
 function minifyhtml() {
   return gulp.src('src/index.html') //src 폴더 아래의 모든 html 파일을
@@ -61,6 +52,15 @@ function watch() {
   gulp.watch('src/js/*.js', uglifyjs);
   gulp.watch('src/css/*.css', minifycss);
   gulp.watch('src/*.html', minifyhtml);
+}
+
+//dist 폴더를 기준으로 웹서버 실행
+function server() {
+  return browserSync.init({
+    server: {
+      baseDir: './dist'
+    }
+  });
 }
 
 //gulp를 실행하면 default 로 minifycss task를 실행
