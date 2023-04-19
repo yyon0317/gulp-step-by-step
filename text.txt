@@ -18,6 +18,8 @@
 -  npm install --save-dev gulp-sourcemaps
 -  npm install gulp-htmlmin --save-dev
 -  npm install gulp-clean-css --save-dev
+-  npm install gulp-newer --save-dev
+-  npm install gulp-cached --save-dev
 
 
 [step02_default_task]
