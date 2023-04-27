@@ -1,0 +1,1 @@
+{"version":3,"sources":["css/dummy1.css","css/dummy2.css"],"names":[],"mappings":"AACA,EACI,UAAW;ACDf,EACI,UAAW","file":"main.css","sourcesContent":["/* dummy class a */\r\na {\r\n    font-size: 1em;\r\n}","/* dummy class b */\r\nb {\r\n    font-size: 2em;\r\n}"]}

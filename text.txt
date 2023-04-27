@@ -20,7 +20,9 @@
 -  npm install gulp-clean-css --save-dev
 -  npm install gulp-newer --save-dev
 -  npm install gulp-cached --save-dev
+-  npm install gulp-sourcemaps
 
+- npm install gulp-uglify gulp-concat gulp-minify-css gulp-minify-html browser-sync browserify vinyl-source-stream vinyl-buffer gulp-sourcemaps gulp-newer gulp-cached gulp-remember gulp-plumber --save-dev
 
 [step02_default_task]
 
