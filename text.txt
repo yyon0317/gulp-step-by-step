@@ -1,3 +1,5 @@
+터미널에서 sudo npm install --global gulp (gulp설치)
+
 
 - gulp 를 사용하기에 앞서 node.js 와 npm 이 먼저 미리 설치
 - $ npm init
@@ -22,6 +24,9 @@
 -  npm install gulp-cached --save-dev
 -  npm install gulp-sourcemaps
 -  npm install run-sequence --save-dev
+-  npm install --save-dev gulp-connect
+-  npm install babelify --save-dev
+-  npm install babel-preset-es2015 --save-dev
 
 - npm install gulp-uglify gulp-concat gulp-minify-css gulp-minify-html browser-sync browserify vinyl-source-stream vinyl-buffer gulp-sourcemaps gulp-newer gulp-cached gulp-remember gulp-plumber --save-dev
 
