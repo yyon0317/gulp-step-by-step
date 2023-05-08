@@ -35,9 +35,10 @@ gulp.task('build:javascript', function () {
   return mergeStream.apply(null, entries.map(function (entry) {
     const target = watchify(browserify({ entries: entry.src, debug: true, cache: {}, packageCache: {} }))
       //.transform(babelify, { presets: ['es2015', 'react'] });
+	  //.transform(babelify, {presets: ['@babel/preset-env']});
 	  .transform(babelify, {
-		presets: ['@babel/preset-env']
-	  });
+		presets: ["@babel/preset-env", { targets: "> 0.25%, not dead" }],
+	  })
 
     const bundle = function () {
       console.log(gutil.colors.green(entry.filename), 'bundling..');
