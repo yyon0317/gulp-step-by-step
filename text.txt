@@ -37,4 +37,13 @@ https://forgiveall.tistory.com/521
 간단히 말하면 ==> gulp.task(name, deps, func) 에서 gulp.task(name, gulp.{series|parallel}(deps, func))으로 바꿔주자
 Task를 열거할 때 gulp.series인지 gulp.parallel인지만 수정해주면 된다. 직렬-병렬 실행 기능이 생긴것 같다.
 
+ npm install gulp-newer gulp-autoprefixer gulp-clean-css gulp-rename gulp-concat gulp-uglify gulp-npm-dist browser-sync gulp-file-include gulp-replace --save-dev
+
+npm install gulp-sass --save-dev
+npm install sass --save-dev
+npm install gulp-sourcemaps --save-dev
+npm install del --save-dev
+npm install --save-dev run-sequence
+npm install --save inquirer
+
 
