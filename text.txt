@@ -30,6 +30,12 @@
 
 - npm install gulp-uglify gulp-concat gulp-minify-css gulp-minify-html browser-sync browserify vinyl-source-stream vinyl-buffer gulp-sourcemaps gulp-newer gulp-cached gulp-remember gulp-plumber --save-dev
 
+- npm install -g webpack npm install webpack --save-dev npm install
+
+
+
+
+
 [step02_default_task]
 
 https://forgiveall.tistory.com/521
