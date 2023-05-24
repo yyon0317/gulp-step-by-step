@@ -53,3 +53,6 @@ npm install --save-dev run-sequence
 npm install --save inquirer
 
 
+
+npm install node-sass --save-dev
+

@@ -1,0 +1,27 @@
+{
+  "name": "step18_sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "inquirer": "^9.2.6"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-series": "^1.0.2",
+    "node-sass": "^9.0.0",
+    "run-sequence": "^2.2.1"
+  }
+}
