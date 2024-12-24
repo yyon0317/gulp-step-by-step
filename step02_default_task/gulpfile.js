@@ -1,12 +1,14 @@
-var gulp = require('gulp');
+const gulp = require('gulp');
 
-// hello world 라고 콘솔에 찍는 task
 gulp.task('hello', function () {
-	return console.log('Hello World!');
+    return new Promise((resolve) => {
+        console.log('Hello World!');
+        resolve(); // 작업 완료
+    });
 });
 
-//gulp를 실행하면 default 로 hello task 실행
-gulp.task('default', gulp.series(['hello']));
+gulp.task('default', gulp.series('hello'));
+
 
 
 //3에서 4로 버전업이 되면서, gulp.task를 정의 하는 규칙이 조금 바뀌었다.
